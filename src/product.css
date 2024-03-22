@@ -1,0 +1,21 @@
+.Product{
+    border: 2px solid white;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    border-radius: 60px 0;
+    transition: all .5s ease;
+}
+.Product h4{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: all .1s ease;
+
+}
+.Product h6:hover{
+    color: blue;
+}
+.Product:hover{
+    background-color: white;
+    color: black;
+    transform: scale(1.2);
+}
